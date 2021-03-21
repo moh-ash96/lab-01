@@ -1,0 +1,125 @@
+#c-box{
+    height: 125px;
+    border: solid 2px black;
+    background-color: #00D8F5;
+}
+@media screen and (min-width: 768px) {
+    #c-box{
+        height: 200px;
+        width: 380px;
+        float: left;
+        background-color: #f48b29;
+    }
+} 
+ #d-box{
+    height: 125px;
+    border: solid 2px black;
+    background-color: #0BDE8F;
+}
+@media screen and (min-width: 768px) {
+    #d-box{
+        height: 200px;
+        width: 380px;
+        float: right;
+        background-color: #ac0d0d;
+    }
+} 
+
+
+#e-h-container{
+    height: 500px;
+    /* border: solid 2px black; */
+
+}
+@media screen and (min-width: 768px) {
+    #e-h-container{
+        height: 250px;
+        width: 972px;
+        /* display: inline-block; */
+        
+    }
+} 
+
+.inside-box{
+    width: 240px;
+    height: 250px;
+    border: solid 2px black;
+}
+@media screen and (min-width: 768px) {
+    .inside-box{
+        height: 250px;
+        width: 186px;
+       
+    }
+} 
+
+#e-box, #g-box{
+    float: left;
+    border: solid 2px black;
+}
+
+
+#f-box, #h-box{
+    float: right;
+    border: solid 2px black;
+}
+
+@media screen and (min-width: 768px) {
+    #e-box, #f-box{
+        float: left;
+        border: solid 2px black;
+        width: 190px;
+    }
+} 
+
+@media screen and (min-width: 768px) {
+    #h-box{
+        /* float: right; */
+        border: solid 2px black;
+        margin-right: 0px;
+        
+    }
+} 
+
+#e-box{
+    background-color: #21b4c7;
+}
+
+@media screen and (min-width: 768px){
+    #e-box{
+        background-color: #8c0000;
+    }
+}
+
+#f-box{
+    background-color: #0ca168;
+
+}
+@media screen and (min-width: 768px){
+    #f-box{
+        background-color: #bd2000;
+    }
+}
+#g-box{
+    background-color: #FFF800;
+}
+@media screen and (min-width: 768px){
+    #g-box{
+        background-color: #fa1e0e;
+    }
+}
+#h-box{
+    background-color: #6EE800;
+}
+@media screen and (min-width: 768px){
+    #h-box{
+        background-color: #ffbe0f;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    footer{
+        float: right;
+    }
+} 
+
