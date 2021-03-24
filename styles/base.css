@@ -1,50 +1,99 @@
 html,
 body {
-  width: 488px;
+  width: 100%;
+  height: 100%;
   background-color: rgb(184, 178, 178);
   text-align: center;
 }
 @media screen and (min-width: 768px) {
   html,
   body {
-    width: 972px;
+    width: 100%;
+  }
+}
+#container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (min-width: 768px) {
+  #container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
   }
 }
 
 h1 {
-  height: 75px;
+  width: 100%;
+  height: 7.85%;
   border: solid 2px black;
   background-color: #0e00fa;
 }
 @media screen and (min-width: 768px) {
   h1 {
-    height: 100px;
+    height: 14.286%;
     background-color: #fbe6c2;
   }
 }
+@media screen and (min-width: 1024px) {
+  h1 {
+    background-color: #1ff71b;
+    
+  }
+}
+
 nav {
-  height: 150px;
+  width: 100%;
+  height: 15.7%;
   border: solid 2px black;
   background-color: #0b63de;
 }
 @media screen and (min-width: 768px) {
     nav{
-        width: 200px;
-        height: 600px;
-        float: left;
+        width: 20.833%;
+        height: 100%;
+        /* float: left; */
         background-color: #f0c929;
     }
 }
+@media screen and (min-width: 1024px) {
+  nav{
+     background-color: #fc5603;
+  }
+}
+
+#allButAb{
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px){
+  #allButAb{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
 
 footer {
-  height: 80px;
+  width: 100%;
+  height: 8.377%;
   border: solid 2px black;
   background-color: #0dff2b;
+  margin-bottom: -9px;
 }
 @media screen and (min-width: 768px) {
     footer{
-        height: 150px;
-        width: 760px;
+        height: 27.4286%;
+        width: 87.7916%;
         background-color: #007580;
     }
+} 
+@media screen and (min-width: 1024px) {
+  footer{
+     background-color: #e409e6;
+  }
 } 
